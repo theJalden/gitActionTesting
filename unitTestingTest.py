@@ -26,8 +26,8 @@ class TestMastodon(unittest.TestCase):
         self.assertEqual(testoDon.legs, 1)
         testoDon.amputate()
         self.assertEqual(testoDon.legs, 0)
-        testoDon.amputate()git
-        self.assertEqual(testoDon.legs, -1)
+        testoDon.amputate()
+        self.assertEqual(testoDon.legs, 0)
 
 
 if __name__ == "__main__":
