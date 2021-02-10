@@ -27,5 +27,5 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run the python unit tests
-        run: python -m unittest unitTestingTest.py
+        run: python -m unittest unitTestingTest
 
